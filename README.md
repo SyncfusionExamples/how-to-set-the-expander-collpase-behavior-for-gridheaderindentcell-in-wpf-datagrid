@@ -107,6 +107,8 @@ This example illustrates how to set the expander/collpase behavior for GridHeade
 }
 ```
 
+KB article - [How to set the expander/collpase behavior for GridHeaderIndentCell in WPF SfDataGrid](https://www.syncfusion.com/kb/11518/how-to-set-the-expander-collpase-behavior-for-gridheaderindentcell-in-wpf-datagrid)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
 
