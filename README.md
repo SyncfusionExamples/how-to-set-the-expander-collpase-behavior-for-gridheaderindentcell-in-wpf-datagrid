@@ -1,4 +1,4 @@
-#How to set the expander/collpase behavior for GridHeaderIndentCell in WPF SfDataGrid
+# How to set the Expander/collpase behavior for GridHeaderIndentCell in WPF DataGrid (SfDataGrid)
 ## About the sample
 
 This example illustrates how to set the expander/collpase behavior for GridHeaderIndentCell in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid).
