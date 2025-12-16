@@ -110,10 +110,4 @@ private void GridHeaderIndentCell_MouseDown(object sender, MouseButtonEventArgs 
 }
 ```
 
-#### Before Expanding
-
-![DataGrid before expanding expander in GridHeaderIndentCell](BeforeExpanding.png)
-
-#### After Expanding
-
-![DataGrid after expanding expander in GridHeaderIndentCell](AfterExpanding.png)
+![DataGrid with Expander or collapse icon with behavior](DataGridWithExpanderCollapseBehavior.gif)
