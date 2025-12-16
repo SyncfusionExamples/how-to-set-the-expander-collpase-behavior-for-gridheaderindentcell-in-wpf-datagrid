@@ -1,6 +1,6 @@
 # How to Set the Expander/Collpase Behavior for GridHeaderIndentCell in WPF DataGrid?
 
-This example illustrates how to set the expander/collpase behavior for GridHeaderIndentCell in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid).
+This example illustrates how to set the expander/collpase behavior for GridHeaderIndentCell in [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid).
 
 DataGrid does not provide the support for setting expander in `GridHeaderIndentCell`. You can achieve this by overriding the `GridHeaderIndentCell` style and using the `GridHeaderIndentCell.MouseDown` event, you can change the expand or collapse state of all the DetailViewDataGrid rows.
 
