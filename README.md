@@ -1,11 +1,12 @@
-#How to set the expander/collpase behavior for GridHeaderIndentCell in WPF SfDataGrid
-## About the sample
+# How to Set the Expander/Collpase Behavior for GridHeaderIndentCell in WPF DataGrid?
 
-This example illustrates how to set the expander/collpase behavior for GridHeaderIndentCell in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid).
+This example illustrates how to set the expander/collpase behavior for GridHeaderIndentCell in [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid).
 
-[WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) does not provide the support for setting expander in `GridHeaderIndentCell`. You can achieve this by overriding the `GridHeaderIndentCell` style and using the `GridHeaderIndentCell.MouseDown` event, you can change the expand or collapse state of all the DetailViewDataGrid rows.
+DataGrid does not provide the support for setting expander in `GridHeaderIndentCell`. You can achieve this by overriding the `GridHeaderIndentCell` style and using the `GridHeaderIndentCell.MouseDown` event, you can change the expand or collapse state of all the DetailViewDataGrid rows.
 
-```XAML
+#### XAML
+
+``` xml
 <Style TargetType="syncfusion:GridHeaderIndentCell">
     <Setter Property="BorderBrush" Value="Gray"/>
     <Setter Property="Template">
@@ -92,8 +93,10 @@ This example illustrates how to set the expander/collpase behavior for GridHeade
 </Style>
 ```
 
+#### C#
+
 ```c#
- private void GridHeaderIndentCell_MouseDown(object sender, MouseButtonEventArgs e)
+private void GridHeaderIndentCell_MouseDown(object sender, MouseButtonEventArgs e)
 {
     var gridHeaderIndentCell = sender as GridHeaderIndentCell;
     IsExpanded = !IsExpanded;
@@ -107,8 +110,4 @@ This example illustrates how to set the expander/collpase behavior for GridHeade
 }
 ```
 
-KB article - [How to set the expander/collpase behavior for GridHeaderIndentCell in WPF SfDataGrid](https://www.syncfusion.com/kb/11518/how-to-set-the-expander-collpase-behavior-for-gridheaderindentcell-in-wpf-datagrid)
-
-## Requirements to run the demo
-Visual Studio 2015 and above versions
-
+![DataGrid with Expander or collapse icon with behavior](DataGridWithExpanderCollapseBehavior.gif)
